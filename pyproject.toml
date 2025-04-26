@@ -3,10 +3,10 @@ name = "hackathon-poridhi-gradient"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "ShawonKazi",email = "shawon2594@gmail.com"}
+    {name = "ShawonKazi", email = "shawon2594@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.9,<4.0"
+requires-python = ">=3.9,<3.14"
 dependencies = [
     "llama-index (>=0.12.33,<0.13.0)",
     "pandas (>=2.2.3,<3.0.0)",
@@ -17,7 +17,17 @@ dependencies = [
     "llama-index-llms-groq (>=0.3.1,<0.4.0)",
     "llama-index-embeddings-huggingface (>=0.5.3,<0.6.0)",
     "huggingface-hub (>=0.30.2,<0.31.0)",
-    "notebook (>=7.4.1,<8.0.0)"
+    "notebook (>=7.4.1,<8.0.0)",
+    "datasets (>=3.5.0,<4.0.0)",
+    "llama-index-vector-stores-faiss (>=0.3.0,<0.4.0)",
+    "llama-index-vector-stores-chroma (>=0.4.1,<0.5.0)",
+    "llama-index-extractors-entity (>=0.3.1,<0.4.0)",
+    "torchvision (>=0.22.0,<0.23.0)",
+    "torch (>=2.7.0,<3.0.0)",
+    "torchaudio (>=2.7.0,<3.0.0)",
+    "llama-index-llms-ollama (>=0.5.4,<0.6.0)",
+    "llama-index-embeddings-instructor (>=0.3.0,<0.4.0)",
+    "llama-index-vector-stores-redis (>=0.5.0,<0.6.0)"
 ]
 
 [build-system]
